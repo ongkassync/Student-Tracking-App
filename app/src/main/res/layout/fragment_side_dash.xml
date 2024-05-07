@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideDashFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:text="Welcome Users"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+
+            android:textSize="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Exam Paid"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/exampaid"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Total Tuitions"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/totaltutions"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Total Payments"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/totalpayments"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Total Balance"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/balance"
+                android:hint=""
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:inputType="textPersonName"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
