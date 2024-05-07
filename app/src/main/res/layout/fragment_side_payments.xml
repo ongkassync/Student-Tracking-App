@@ -5,10 +5,71 @@
     android:layout_height="match_parent"
     tools:context=".SidePaymentsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Payments"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_below="@id/title"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_textview_corner"
+            android:text="Payment"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_textview_corner"
+            android:text="Description"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:inputType="textPersonName"/>
+
+
+
+        <TextView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pay"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_textview_corner"
+            />
+
+
+
+    </RelativeLayout>
 
 </FrameLayout>

@@ -25,10 +25,11 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_height="25dp"
                 android:src="@drawable/menu"
                 app:tint="@color/white">
             </ImageView>
+
 
             <ImageView
                 android:id="@+id/logo"
@@ -43,12 +44,29 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textColor="@color/white"
-                android:layout_marginStart="15dp"
+                android:layout_marginStart="10dp"
                 android:textStyle="bold"
                 android:text="Student Tracking App">
             </TextView>
+            <ImageView
+                android:id="@+id/imagebell"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:src="@drawable/bell"
+                android:layout_marginStart="90dp"
+                app:tint="@color/white">
+            </ImageView>
+
+
+            <ImageView
+                android:id="@+id/imageprof"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:src="@drawable/account"
+                app:tint="@color/white">
+            </ImageView>
 
         </LinearLayout>
 
